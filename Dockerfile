@@ -7,7 +7,7 @@ RUN apk add --no-cache gettext
 ADD . /srv/
 
 ADD dist/conf.example.json /srv/dist
-ADD Caddyfile /etc/Caddyfile
+ADD Caddyfile /etc/Caddyfile.temp
 
 
 ADD ./entrypoint.sh /
