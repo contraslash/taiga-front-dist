@@ -1,4 +1,5 @@
 ${TAIGA_FRONT_URL} {
+    tls off
     root /srv/dist
     rewrite / {
         regexp .*
